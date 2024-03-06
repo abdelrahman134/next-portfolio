@@ -3,7 +3,7 @@ import Brain from "@/components/brain";
 import { motion, useInView, useScroll } from "framer-motion";
 import { useRef } from "react";
 
-export default function page() {
+export default function Aboutpage() {
   const containerRef = useRef();
   const { scrollYProgress } = useScroll({ container: containerRef });
   const skillRef = useRef();

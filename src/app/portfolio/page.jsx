@@ -46,7 +46,7 @@ const items = [
   },
 ];
 
-export default function page() {
+export default function Page() {
   const ref =useRef()
   const {scrollYProgress} = useScroll({target:ref})
   const x=useTransform(scrollYProgress,[0,1],["0%","-80%"])
