@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
-const ContactPage = () => {
+const page = () => {
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState(false);
   const text = "Say Hello";
@@ -99,4 +99,4 @@ const ContactPage = () => {
   );
 };
 
-export default ContactPage;
+export default page;
